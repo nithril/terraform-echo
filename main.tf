@@ -9,3 +9,8 @@ resource "null_resource" "echo" {
     command = "echo 'Hello from Terraform!'"
   }
 }
+
+
+output "foo" {
+  value = "bar"
+}
